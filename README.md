@@ -6,6 +6,26 @@ A web application with **CRUD** (Create, Retrieve, Update, Delete) functionality
  - **[Express](https://expressjs.com/)** - For handling server side (backend) functions
  - **[React](https://react.dev/)** - For frontend and client side functions
  - **[Node.js](https://nodejs.org/en)** - For backend functions
+## Getting Started
+
+### Setup and Run the Application Locally
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/your-repository-name.git
+   cd your-repository-name
+
+   # Install backend dependencies
+   cd backend
+   npm install
+   node index.js
+
+   # Install frontend dependencies
+   cd ../frontend
+   npm install
+   npm start
+
 # Approach
 ## Backend
 ### General
