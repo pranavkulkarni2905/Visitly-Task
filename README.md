@@ -17,14 +17,17 @@ A web application with **CRUD** (Create, Retrieve, Update, Delete) functionality
    cd your-repository-name
 
    # Install backend dependencies
-   cd backend
+   cd notes-backend
    npm install
    node index.js
 
    # Install frontend dependencies
-   cd ../frontend
+   cd notes-frontend
    npm install
    npm start
+2. **Changes in backend**
+    ```bash
+    In .env file change mongoURL and PORT according to you.
 
 # Approach
 ## Backend
